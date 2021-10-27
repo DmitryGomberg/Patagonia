@@ -1,6 +1,7 @@
 
 console.log('dddd');
 $(document).ready(function() {
+   $('.swiper-container').addClass('swiper');
     
     $('.burger_menu').click(function(event){
         $('.burger_menu,.menu').toggleClass('_active');
@@ -9,6 +10,18 @@ $(document).ready(function() {
     
     
     let button = $('.back-to-top');
+    
+    
+    button.fadeOut(0);
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     $(window).on('scroll', ()=>{
         if($(this).scrollTop()>=50){
